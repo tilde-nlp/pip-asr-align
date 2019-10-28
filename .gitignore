@@ -1,0 +1,50 @@
+
+# lists of data files
+*.lst
+
+# data files
+parts/
+split/
+asr/
+vid/
+text/
+ref/
+audio/
+lm/
+
+# transciber models and other files
+transcriber/am
+transcriber/lm
+transcriber/data
+transcriber/exp
+transcriber/fa_fsts
+transcriber/lium
+transcriber/mfcc
+transcriber/srt
+transcriber/*.log
+transcriber/*.seg
+
+# alignment
+alignment
+file_alignment
+word_alignment
+force_alignment
+
+# corpora
+crp1/
+crp2/
+crp_fa/
+crp2fa/
+
+# backups
+*.bak
+*.tar.gz
+
+# compiled/binary files
+*.o
+*.pyc
+utils/align.cpp/align
+
+# temporary alignment files
+tmp.ref
+tmp.asr
