@@ -4,7 +4,7 @@
 Toolkit for extracting corpus by aligning with imprecise transcriptions
 
 ## DEPENDENCIES
-The toolkit is based on several tools and resources that needs to be acquired separately.
+The toolkit is based on several tools and resources that needs to be acquired separately:
 
 - Kaldi 
 - Latvian or Lithuanian models in Kaldi format (see transcriber/step1\_decode.sh)
