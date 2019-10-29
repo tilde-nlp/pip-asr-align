@@ -2,7 +2,8 @@
 
 # this script assumes that audio is placed in "audio" directory
 # and unnormalized text transcriptions are placed in "text"
-# the files in audio and text should have correspond names, that differ only in extension
+# the files in "audio" and "text" directories should have the 
+# same names, that differ only in extension
 
 lang=$1
 stage=$2
