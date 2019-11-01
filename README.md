@@ -7,9 +7,7 @@ Toolkit for extracting corpus by aligning with imprecise transcriptions
 The toolkit is based on several tools and resources that needs to be acquired separately:
 
 - Kaldi 
-- Latvian or Lithuanian models in Kaldi format (see transcriber/step1\_decode.sh)
-- KenLM
-- SRILM
+- Acoustic and language models in Kaldi format (see transcriber/step1\_decode.sh)
 
 ## HOW TO 
 See do\_alignment.sh as main entrypoint
